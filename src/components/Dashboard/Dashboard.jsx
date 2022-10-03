@@ -8,7 +8,7 @@ import {arr} from "../constant"
 const Dashboard = (props) => {
   const [initialSearch, setIntialSearch] = useState('Patna');
   const [data, setData] = useState([]);
-  const [text, setText] = useState('Patna');
+  const [text, setText] = useState('Siwan');
   const [cityList, setCityList] = useState([]);
   const [showList, setShowList] = useState(false);
 
