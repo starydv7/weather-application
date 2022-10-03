@@ -1,0 +1,65 @@
+.main-box {
+  display: flex;
+  width: 771px;
+  overflow: auto;
+  margin-left: 10px;
+}
+.chart-style {
+  width: 738px;
+  border-radius: 8px;
+  box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%),
+    0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+  padding: 1.5rem 1rem 0;
+  margin-top: 20px;
+}
+.currentTempDiv {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 1.5rem;
+}
+
+.chart-current-temp {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.cloud-img {
+  height: 3em;
+  margin-left: 1rem;
+}
+
+.otherForecastData {
+  display: flex;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.other-data {
+  background: #f3fbff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bottom-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.sunrise {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-img {
+  position: relative;
+  cursor: default;
+  width: 110%;
+  height: 200px;
+}

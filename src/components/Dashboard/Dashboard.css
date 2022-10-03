@@ -1,0 +1,46 @@
+.main-container {
+  width: fit-content;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.input-style {
+  box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%),
+    0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+  border-radius: 8px;
+  border: none;
+  height: 0.3rem;
+  padding: 1.75rem 1.75rem 1.75rem 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: box-shadow 0.2s ease;
+  width: 50vw;
+  font-size: 20px;
+}
+
+.input-style:hover {
+  border: 2px solid black;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 2px solid white;
+}
+
+.map-logo {
+  position: relative;
+  display: inline-block;
+  left: 32px;
+  top: 6px;
+}
+.search-logo {
+  position: relative;
+  display: inline-block;
+  top: 4px;
+  right: 43px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.cities {
+  margin-left: 20px;
+}

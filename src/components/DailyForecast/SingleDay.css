@@ -1,0 +1,34 @@
+.align-items {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  display: block;
+}
+.DailyForecastInput {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  display: block;
+}
+.DailyForecastDiv {
+  position: relative;
+  margin: 0.25rem;
+}
+.ForeCast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+    transition: box-shadow .3s ease-in;
+}
+.ForecastData > p {
+    margin: 0 0 0.25rem;
+    font-weight: 600;
+}
