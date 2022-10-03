@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import HourlyChart from '../Chart/HourlyChart';
+
 import DailyForeCast from '../DailyForecast/DaillyForeCast';
 import "./Dashboard.css";
 import {arr} from "../constant"
