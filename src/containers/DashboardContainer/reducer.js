@@ -1,4 +1,4 @@
-import { GET_WEATHER_DATA_REQUEST, GET_WEATHER_DATA_SUCCESS } from "./constant"
+import { GET_WEATHER_DATA_REQUEST, GET_WEATHER_DATA_SUCCESS } from "./actionType"
 
 
 const initialState = {
